@@ -71,7 +71,7 @@
       when: ansible_network_os is defined
 
 - name: Update Git
-  hosts: ansible-1
+  hosts: localhost
   gather_facts: no
   become: yes
   vars:
